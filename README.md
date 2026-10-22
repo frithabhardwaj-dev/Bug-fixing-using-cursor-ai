@@ -1,16 +1,11 @@
-# Cursor AI Student Report Refactoring
+# Lecture 8 - Bug Fixing Using Cursor AI
 
-This project contains the Lecture 6 messy Python report program before and after a readability refactor.
+This repository contains the RED -> FIX -> GREEN debugging activity.
 
-- `messy_before.py` preserves the original Colab code.
-- `messy.py` is the readable refactor.
-- `original_output.txt` records the reference output from the original program.
-- `.cursor/rules/python-standards.mdc` contains the course rules used for the final review.
+The completed project is in `lecture8/` and includes the corrected `student_utils.py`, the nine-test `test_student_utils.py`, `bug_notes.md`, `audit.md`, and the Cursor coding rules.
 
-Run the final program with:
+Run the final tests from the `lecture8` folder with:
 
 ```bash
-python messy.py
+python test_student_utils.py
 ```
-
-The refactor uses descriptive names, reusable functions, a named subject-count constant, f-strings, and no unused imports. Its printed output remains character-for-character identical to the reference output.
